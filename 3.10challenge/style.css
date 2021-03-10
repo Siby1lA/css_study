@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Passion+One:wght@700;900&display=swap');
+body{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Passion One', cursive;
+}
+
+.wrap{
+    width: 380px;
+    height: 820px;
+    border: 5px solid #00C6AD;
+    padding: 0px 25px;
+}
+.status-bar{
+    font-size: 35px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.status-bar i{
+    width: 20%;
+    margin-left: 10px;
+}
+
+.status-bar span{
+    width: 60%;
+    text-align: center;
+}
+.status-bar div{
+    width: 20%;
+}
+
+.play{
+    display: flex;
+    
+}
+
+.play__img{
+    width: 140px;
+    height: 140px;
+    background-color: #FFBD11;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.play__img i{
+    font-size: 60px;
+    color: white;
+}
+
+.play__text span{
+    display: block;
+}
+
+.play__text_love{
+    font-size: 45px;
+    
+}
+
+.play__text span:last-child{
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.control{
+    display: flex;
+    margin-top: 40px;
+}
+
+.control__playbtn{
+    border: 2px solid black;
+    width: 180px;
+    height: 65px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+}
+
+.control__playbtn i {
+    color: tomato;
+    margin-right: 15px;
+}
+
+.control__heartbtn,
+.control__plusbtn{
+    width: 65px;
+    height: 65px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-left: 25px;
+}
+
+.play-list__boxs{
+    display: flex;
+    margin: 40px 0px;
+}
+
+.color-box__text span{
+    display: block;
+}
+
+.color-box{
+    width: 55px;
+    height: 55px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.red-box{
+    background-color: #F85A2A;
+}
+
+.pink-box{
+    background-color: #FF89BB;
+}
+
+.blue-box{
+    background-color: #1847E5;
+}
+
+.green-box{
+    background-color: #00C6AD;
+}
+
+.color-box__text{
+    margin-left: 15px;
+}
+
+.color-box__text span:first-child{
+    font-size: 30px;
+}
+
+.color-box__text span:last-child{
+    font-size: 15px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    opacity: 0.9;
+}
